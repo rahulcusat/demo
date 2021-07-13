@@ -19,4 +19,4 @@ jobs:
     - name: make
       run: gcc hello.c -o hello.out
     - name: Valgrid
-      run: valgrind hello.out
+      run: valgrind ./hello.out
